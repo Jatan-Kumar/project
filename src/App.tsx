@@ -64,7 +64,7 @@ const projects: Project[] = [
     title: "Javelin Sports",
     description: "A dynamic sports equipment and apparel e-commerce platform.",
     // image: "https://javelin-sports.co.za/wp-content/uploads/2024/02/javelin-sports-screenshot.jpg",
-    image: "/images/diversit-blends-screenshot.png",
+    image: "/images/diversity-blends-screenshot.png",
     link: "https://javelin-sports.co.za/",
     tech: ["React", "Node.js", "Stripe"]
   }
