@@ -47,21 +47,24 @@ const projects: Project[] = [
   {
     title: "Diversity Blends",
     description: "A modern e-commerce platform showcasing diverse culinary products and experiences.",
-    image: "https://diversityblends.co.za/wp-content/uploads/2024/02/diversity-blends-screenshot.jpg",
+    // image: "https://diversityblends.co.za/wp-content/uploads/2024/02/diversity-blends-screenshot.jpg",
+    image: "/images/diversity-blends-screenshot.png",
     link: "https://diversityblends.co.za/",
     tech: ["React", "Node.js", "WooCommerce"]
   },
   {
     title: "Design Central",
     description: "A portfolio website for a creative design agency featuring their work and services.",
-    image: "https://designcentral.co.za/wp-content/uploads/2024/02/design-central-screenshot.jpg",
+    // image: "https://designcentral.co.za/wp-content/uploads/2024/02/design-central-screenshot.jpg",
+    image: "/images/diversity-blends-screenshot.png",
     link: "https://designcentral.co.za/",
     tech: ["React", "Tailwind CSS", "Framer Motion"]
   },
   {
     title: "Javelin Sports",
     description: "A dynamic sports equipment and apparel e-commerce platform.",
-    image: "https://javelin-sports.co.za/wp-content/uploads/2024/02/javelin-sports-screenshot.jpg",
+    // image: "https://javelin-sports.co.za/wp-content/uploads/2024/02/javelin-sports-screenshot.jpg",
+    image: "/images/diversit-blends-screenshot.png",
     link: "https://javelin-sports.co.za/",
     tech: ["React", "Node.js", "Stripe"]
   }
@@ -251,7 +254,7 @@ function Home() {
                 <div className="absolute inset-0 bg-secondary/20 rounded-lg transform translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
                 <div className="relative overflow-hidden rounded-lg bg-secondary/10 p-2">
                   <img
-                    src="/src/assets/photo.jpeg"
+                    src="/photo.jpeg"
                     alt="Jatan Kumar"
                     className="w-full h-auto object-cover rounded-lg shadow-xl transform group-hover:scale-105 transition-transform duration-300"
                   />
