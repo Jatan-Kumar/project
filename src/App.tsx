@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiMenu, FiX } from 'react-icons/fi';
 import { Routes, Route, Link } from 'react-router-dom';
+import './index.css'
 
 interface Technology {
   name: string;
