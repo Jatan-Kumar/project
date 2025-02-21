@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiMenu, FiX } from 'react-icons/fi';
 import { Routes, Route, Link } from 'react-router-dom';
 import './index.css'
-import 'tailwindcss/tailwind.css'; // If Tailwind is used
 
 interface Technology {
   name: string;
